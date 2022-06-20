@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=IBM+Plex+Serif&display=swap');
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #377aea;
+}
+.wrapper{
+    width: 40vw;
+    margin: 2rem 30vw;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.wrapper.active ul{
+    display: block;
+}
+.wrapper ul{
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.wrapper p{
+    padding: 0;
+}
+.wrapper .heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.search{
+    margin: auto;
+}
+.search input{
+    width: 80%;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    height: 3.2rem;
+    outline: none;
+    border: 1px solid rgb(149, 248, 241);
+    border-radius: 5px;
+}
+.search input:focus{
+    border: 2px solid rgb(78, 78, 226);
+}
+.search input::placeholder{
+    color: rgb(34, 216, 173);
+}
+.search span{
+    font-size: 1.2rem;
+    right: 2rem;
+}
+.wrapper ul{
+    margin: 0.5rem 1.5rem;
+    padding: 0;
+}
+.word{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.word .details{
+    display: flex;
+}
+.word .details p{
+    margin-right: 2rem;
+}
+li{
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+.content .details p{
+    font-weight: 600;
+}
+.content .details{
+    border-left: 3px solid #377aea;
+    padding-left: 1rem;
+}
